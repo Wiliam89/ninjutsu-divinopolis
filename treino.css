@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%; /* Definindo a largura para ocupar toda a tela */
+    max-width: 1000px; /* Definindo uma largura máxima para o conteúdo */
+    margin: 0 auto; /* Centralizando o conteúdo na tela */
+    padding: 20px; /* Espaçamento interno opcional */
+}
+
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto {
+    text-align: justify; /* Alinhando o texto justificado */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    color: white; /* Cor do texto */
+}
+
+/* Estilos para o título dos vídeos */
+.videos h2 {
+    text-align: center;
+}
+
+.videos {
+    flex: 1;
+    justify-content: center;
+    margin-top: 50px; /* Espaçamento entre o texto e os vídeos */
+}
+
+
+
+.video {
+    margin: 0 10px; /* Espaçamento horizontal entre os vídeos */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .content {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
