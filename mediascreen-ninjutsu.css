@@ -1,0 +1,189 @@
+@media screen and (min-width: 730px) and (max-width: 1050px) {
+
+    .bg-training h2 {
+        font-size: 1em;
+    }
+
+    .bg-training p {
+        font-size: 0.9em;
+    }
+
+
+    h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-bottom: 6px;
+    }
+
+    section h2 {
+        font-size: 1em;
+    }
+
+    section p {
+        font-size: 0.9em;
+    }
+
+    blockquote {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 728px) {
+
+    .bg-training h2 {
+        font-size: 1em;
+    }
+
+    .bg-training p {
+        font-size: 0.7em;
+        color: red;
+    }
+    
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    nav ul li a {
+        font-size: 0.7em;
+    }
+
+    section h2 {
+        font-size: 0.9em;
+    }
+
+    section p {
+        font-size: 0.7em;
+    }
+
+    blockquote {
+        font-size: 0.8em;
+    }
+
+    blockquote p {
+        font-size: 0.7em;
+    }
+
+    .redes-sociais a {
+        display: inline-block;
+        margin: 0 10px;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    header {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    nav ul li {
+        margin-right: 10px;
+    }
+
+
+    /* Redimensionando as imagens de fundo para telas menores */
+.bg-introduction, .bg-history, .bg-training {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto; /* Alterando a altura para automática */
+}
+
+/* Adaptação específica para a seção de introdução */
+.bg-introduction::before {
+    height: 100%; /* Ajustando a altura do pseudo-elemento */
+}
+
+}
+    /* Ajustando o tamanho e a posição do bloco de citação */
+    blockquote {
+        font-size: 0.7em;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    
+
+@media screen and (max-width: 480px) {
+ 
+    .bg-training h2 {
+        font-size: 1em;
+    }
+
+    .bg-training p {
+        font-size: 0.7em;
+        color: red;
+    }
+    
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    nav ul li a {
+        font-size: 0.7em;
+    }
+
+    section h2 {
+        font-size: 0.9em;
+    }
+
+    section p {
+        font-size: 0.7em;
+    }
+
+    blockquote {
+        font-size: 0.8em;
+    }
+
+    blockquote p {
+        font-size: 0.7em;
+    }
+
+    .redes-sociais a {
+        display: inline-block;
+        margin: 0 10px;
+        color: #fff;
+        font-size: 22px;
+    }
+
+    header {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    nav ul li {
+        margin-right: 10px;
+    }
+
+
+    /* Redimensionando as imagens de fundo para telas menores */
+.bg-introduction, .bg-history, .bg-training {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto; /* Alterando a altura para automática */
+}
+
+/* Adaptação específica para a seção de introdução */
+.bg-introduction::before {
+    height: 100%; /* Ajustando a altura do pseudo-elemento */
+}
+
+}
+    /* Ajustando o tamanho e a posição do bloco de citação */
+    blockquote {
+        font-size: 0.7em;
+        padding: 10px;
+        margin: 10px 0;
+}
+    
+  
